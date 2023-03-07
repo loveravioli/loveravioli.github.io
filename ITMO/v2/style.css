@@ -1,0 +1,132 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 1px rgba(0, 0, 0, .2);
+    padding: 25px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .logo {
+    max-width: 220px;
+    min-width: 220px;
+    width: 220px;
+  }
+  
+  .nav-menu {
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    margin: 101px;
+    padding: 10px;
+  }
+  
+  .nav-item {
+    margin: 45px 25px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-item a:hover {
+    color: mediumaquamarine;
+  }
+  
+  .login-btn {
+    background-color: #fff;
+    border: 3px solid #58d5d3;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 9px 40px;
+  }
+
+  .image {
+    max-height: 250px;
+    margin-top: 5%;
+  }
+
+  .btn-reg {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4ec4d4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-right: 50px;
+  }
+  
+  .btn-reg:hover {background-color: #377a81}
+  
+  .btn-reg:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn-try {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .btn-try:hover {background-color: #3e8e41}
+  
+  .btn-try:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .bottom {
+    height: 250px;
+    background-color: #000;
+    margin-top: 30px;
+  }
+
+  .center-name {
+    margin-left: 45%;
+    font-size: 24pt;
+    margin-top: 50px;
+  }
