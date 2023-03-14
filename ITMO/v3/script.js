@@ -10,5 +10,5 @@ var exp = "Math.sin(x)";
 	
 	// Display using Plotly
 	var data = [{x:xValues, y:yValues, mode:"lines"}];
-	var layout = {title: "y = " + exp};
+	var layout = {width: 700, height: 300, title: "y = " + exp};
 	Plotly.newPlot("myPlot", data, layout);
