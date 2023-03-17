@@ -43,10 +43,60 @@
 			</div>
 	</header>
 
-       <div class="main2">
-			<p>вы на подвкладке 2</p>
-	   </div>
- 
+	<div class="page-height container ">
+		<p>Prediction catalytic activity</p><br>
+		<p>Enter the formula to predict nanozyme peroxidase activity</p>
+
+		<div class="bar-line">
+			<div class="bar-line__left">
+				<form><label for="Chemical-formula">Chemical formula</label>
+					<input type="text" id="Chemical" placeholder=""></form>
+
+					<form><label for="Crystal-system">Crystal system</label>
+						<select id="Crystal-system" placeholder="">
+							<option>Пункт 1</option>
+							<option>Пункт 2</option> 
+							<option>Пункт 3</option> 
+						  </select></form>
+
+						  <form><label for="Size">Size, nm</label>
+							<input type="text" id="Size" placeholder=""></form>
+
+							
+							<form><label for="Shape">Shape</label>
+								<select id="Shape" placeholder="">
+									<option>Пункт 1</option>
+									<option>Пункт 2</option> 
+									<option>Пункт 3</option> 
+								  </select></form>
+
+								  <form><label for="Neutral-polymer">Neutral polymer</label>
+									<select id="Neutral-polymer" placeholder="">
+										<option>Пункт 1</option>
+										<option>Пункт 2</option> 
+										<option>Пункт 3</option> 
+									  </select></form>
+
+
+									  <form><label for="Surfactant">Surfactant</label>
+										<select id="Surfactant" placeholder="">
+											<option>Пункт 1</option>
+											<option>Пункт 2</option> 
+											<option>Пункт 3</option> 
+										  </select></form>
+
+					<p style="text-align: center"><button onclick="SendPost();">Predict</button>
+					<p style="text-align: center"><button onclick="">Autofill</button>
+
+			</div>
+
+			<div class="bar-line__right">
+				
+		 	</div>
+		</div>
+
+
+	</div>
 
 
 
@@ -57,6 +107,6 @@
 
 		</div>
       </footer>
-
+	  <script src="podpage2.js"></script>
 </body>
 </html>

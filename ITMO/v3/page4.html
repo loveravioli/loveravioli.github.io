@@ -43,20 +43,62 @@
 			</div>
 	</header>
 
-       <div class="main2">
-			<p>вы на вкладке 4</p>
-	   </div>
- 
+	<div class="page-height container ">
+		<p>Enter new nanozyme into database</p>
+		<div class="bar-line">
+			<div class="bar-line__left">
+						<form action=""><label for="ChF">Chemical formula</label>
+						<input type="text" id="ChF" placeholder="H2O"  ></form>
+						<form><label for="Catalytic_activity">Catalytic activity</label>
+						<input type="text" id="Catalytic_activity" placeholder="Perioxidase"></form>
+						<form><label for="Surface_modification">Surface modification</label>
+						<input type="text" id="Surface_modification" placeholder="Poly"></form>
+						<form><label for="Michaelis-Menten">Michaelis-Menten constant, Km</label>
+						<input type="text" id="Michaelis-Menten" placeholder="0.012"></form>
+						<form><label for="Maximum-velocity">Maximum velocity, Vmax</label>
+						<input type="text" id="Maximum-velocity" placeholder="0.032 "></form>
+						<form><label for="Crystal-system">Crystal system</label>
+						<input type="text" id="Crystal" placeholder="cubic"></form>
+						<form><label for="Length">Length, nm</label>
+						<input type="text" id="Length" placeholder="10"></form>
+						<form><label for="Width">Width, nm</label>
+						<input type="text" id="Width" placeholder="10"></form>
+						<form><label for="Depth">Depth, nm</label>
+						<input type="text" id="Depth" placeholder="10"></form>
+			</div>
+
+			<div class="bar-line__right">
+				<form><label for="ChF">Neutral polymer</label>
+					<input type="text" id="ChF" placeholder="poly"></form>
+					<form><label for="ChF">Surfactant</label>
+					<input type="text" id="ChF" placeholder="sodium"></form>
+					<form><label for="ChF">Substrate type</label>
+					<input type="text" id="ChF" placeholder="TBM"></form>
+					<form><label for="ChF">pH</label>
+					<input type="text" id="ChF" placeholder="4"></form>
+					<form><label for="ChF">Temperature</label>
+					<input type="text" id="ChF" placeholder="37"></form>
+					<form><label for="ChF">H2O2 concentration</label>
+					<input type="text" id="ChF" placeholder="100"></form>
+					<form><label for="ChF">Substrate concentration</label>
+					<input type="text" id="ChF" placeholder="1"></form>
+					<form><label for="ChF">Catalyst concentration</label>
+					<input type="text" id="ChF" placeholder="10"></form>
+					<form><label for="ChF">Link to article</label>
+					<input type="text" id="ChF"></form>
+		 	</div>
+		</div>
+		<p style="text-align: center"><button onclick="SendPost();">Add nanozyme</button>
 
 
-
+	</div>
 
     <footer class="bottom">
         <div>
 			<p class="bottom-text">здесь будет текст</p>
 
 		</div>
-      </footer>
-
+    </footer>
+<script src="page4.js"></script>
 </body>
 </html>
