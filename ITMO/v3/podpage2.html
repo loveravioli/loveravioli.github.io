@@ -45,57 +45,56 @@
 
 	<div class="page-height container ">
 		<p>Prediction catalytic activity</p><br>
-		<p>Enter the formula to predict nanozyme peroxidase activity</p>
+		<p>Enter the following values to predict peroxidase activity</p>
 
-		<div class="bar-line">
-			<div class="bar-line__left">
-				<form><label for="Chemical-formula">Chemical formula</label>
-					<input type="text" id="Chemical" placeholder=""></form>
+		<form action="nanotoxicity_prediction-main 2/web/backend_example/prediction/views.py" method="post">
+			<div class="bar-line">
+				<div class="bar-line__left">
+					<label for="Chemical-formula">Chemical formula</label>
+						<input type="text" id="Chemical" placeholder=""><br>
 
-					<form><label for="Crystal-system">Crystal system</label>
-						<select id="Crystal-system" placeholder="">
+						<label for="Crystal-system">Crystal system</label>
+							<select id="Crystal-system" placeholder="">
+								<option>Пункт 1</option>
+								<option>Пункт 2</option> 
+								<option>Пункт 3</option> 
+							</select><br>
+
+						<label for="Size">Size, nm</label>
+							<input type="text" id="Size" placeholder=""><br>
+
+							
+						<label for="Shape">Shape</label>
+							<select id="Shape" placeholder="">
 							<option>Пункт 1</option>
 							<option>Пункт 2</option> 
 							<option>Пункт 3</option> 
-						  </select></form>
+						</select><br>
 
-						  <form><label for="Size">Size, nm</label>
-							<input type="text" id="Size" placeholder=""></form>
-
-							
-							<form><label for="Shape">Shape</label>
-								<select id="Shape" placeholder="">
-									<option>Пункт 1</option>
-									<option>Пункт 2</option> 
-									<option>Пункт 3</option> 
-								  </select></form>
-
-								  <form><label for="Neutral-polymer">Neutral polymer</label>
-									<select id="Neutral-polymer" placeholder="">
-										<option>Пункт 1</option>
-										<option>Пункт 2</option> 
-										<option>Пункт 3</option> 
-									  </select></form>
+						<label for="Neutral-polymer">Neutral polymer</label>
+							<select id="Neutral-polymer" placeholder="">
+							<option>Пункт 1</option>
+							<option>Пункт 2</option> 
+							<option>Пункт 3</option> 
+						</select><br>
 
 
-									  <form><label for="Surfactant">Surfactant</label>
-										<select id="Surfactant" placeholder="">
-											<option>Пункт 1</option>
-											<option>Пункт 2</option> 
-											<option>Пункт 3</option> 
-										  </select></form>
-
-					<p style="text-align: center"><button onclick="SendPost();">Predict</button>
+						<label for="Surfactant">Surfactant</label>
+							<select id="Surfactant" placeholder="">
+								<option>Пункт 1</option>
+								<option>Пункт 2</option> 
+								<option>Пункт 3</option> 
+						</select><br>
+					<p style="text-align: center"><button type="submit" onclick="SendPost();">Predict</button>
 					<p style="text-align: center"><button onclick="">Autofill</button>
+					</form>
 
 			</div>
 
 			<div class="bar-line__right">
-				
+			
 		 	</div>
 		</div>
-
-
 	</div>
 
 
